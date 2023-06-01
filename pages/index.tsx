@@ -28,6 +28,8 @@ const Blog: React.FC<Props> = (props) => {
     <Layout>
       <div className="page">
         <h1>Public Feed</h1>
+        <h2>Hello world!</h2>
+
         <main>
           {props.feed.map((post) => (
             <div key={post.id} className="post">
