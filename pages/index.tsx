@@ -29,6 +29,7 @@ const Blog: React.FC<Props> = (props) => {
       <div className="page">
         <h1>Public Feed</h1>
         <h2>Hello world! v1.0.0-beta.2 </h2>
+        <h3>this is second commit</h3>
 
         <main>
           {props.feed.map((post) => (
